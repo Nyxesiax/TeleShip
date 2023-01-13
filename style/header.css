@@ -1,0 +1,74 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+body
+{
+    margin: 0;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-right: 0;
+    border-bottom: 4px solid #08629d;
+    border-radius: 0px 0px 8px 8px;
+    background-color: rgb(227, 224, 213);
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, inset -50px 13px 27px 50px rgba(145,145,145,0); 
+    box-shadow: 0px 10px 13px -7px #000000, inset -50px 13px 27px 50px rgba(145,145,145,0);
+}
+
+header .logo
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5px;
+    height: 70px;
+
+}
+
+header .logo img
+{
+    width: 60px;
+    border-radius: 8px;
+}
+
+header .navbar
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+    text-decoration: none;
+    gap: 50px;
+}
+
+header .navbar .navtool
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    background-color: #645eb5;
+    transition: 0.5s;
+}
+
+header .navbar .navtool:hover
+{
+    background-color: rgb(68,68,151);
+}
+
+
+header .navbar .navtool a
+{
+    margin: 0px;
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 8px;
+}

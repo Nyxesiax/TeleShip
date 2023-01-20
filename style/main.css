@@ -1,3 +1,7 @@
+/*
+____________________________________________________________________________________________________________________________________
+    Genarel Css for the main
+*/
 *
 {
     margin: 0;
@@ -7,37 +11,108 @@
 
 main
 {
-
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
     margin-top: 0;
     margin-right: 0;
 }
-/*
-main .home
-{
-
-    background-color: rgb(40, 39, 37);
-    height: 150px;
-}
-*/
 
 a
 {
     text-decoration: none;
     color: inherit;
 }
-
+/*
 #homePictureBackground
 {
     background-image: url(../images/ArtworkNew.jpg);
-    background-size: cover;
-
+    background-size:cover;
+    width: 100vw;
+    height: 100vh;
 }
-
+*/
 section
 {
 
     background-color: white;
-    width: 100vw;
-    height: 100vh;
+    /*width: 100vw;
+    height: 100vh;*/
 }
+/*
+____________________________________________________________________________________________________________________________________
+    Css for the Home page
+*/
+.home
+{
+    margin: 0px;
+}
+.backgroundPicture 
+{
+    position: relative;
+    text-align: center;
+}
+
+.backgroundPicture p
+{
+    font-size: 80px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/*
+____________________________________________________________________________________________________________________________________
+    Css for the Product page
+*/
+.product
+{
+    margin: 0px;   
+}
+.bild img
+{
+    width: 360px;
+}
+
+
+/*
+____________________________________________________________________________________________________________________________________
+    Css for the About us page
+
+.about_us
+{
+    margin: 0px;    
+}
+*/
+.aboutUsList ul
+{
+    text-decoration: none;
+}
+
+.aboutUsList li 
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.aboutUsList li img
+{
+    width:  50px;
+}
+
+.aboutUsList li p
+{
+    margin-left: 20px;
+}
+
+/*
+____________________________________________________________________________________________________________________________________
+    Css for the Map page
+*/
+
+/*
+____________________________________________________________________________________________________________________________________
+    Css for the Downloads page
+*/

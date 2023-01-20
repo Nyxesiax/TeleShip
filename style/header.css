@@ -44,9 +44,9 @@ header .navbar
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 50px;
+    margin-right: 20px;
     text-decoration: none;
-    gap: 50px;
+    gap: 20px;
 }
 
 header .navbar .navtool

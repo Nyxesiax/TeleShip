@@ -23,21 +23,10 @@ a
     text-decoration: none;
     color: inherit;
 }
-/*
-#homePictureBackground
-{
-    background-image: url(../images/ArtworkNew.jpg);
-    background-size:cover;
-    width: 100vw;
-    height: 100vh;
-}
-*/
+
 section
 {
-
     background-color: white;
-    /*width: 100vw;
-    height: 100vh;*/
 }
 /*
 ____________________________________________________________________________________________________________________________________
@@ -51,6 +40,10 @@ ________________________________________________________________________________
 {
     position: relative;
     text-align: center;
+}
+.backgroundPicture img
+{
+    width: 100%;
 }
 
 .backgroundPicture p
@@ -67,7 +60,9 @@ ________________________________________________________________________________
 */
 .product
 {
-    margin: 0px;   
+    margin: 0px;  
+    display: flex; 
+    flex-direction: row;
 }
 .bild img
 {
@@ -111,6 +106,49 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________________________________________
     Css for the Map page
 */
+.karte
+{
+    position: relative;
+    text-align: center;
+}
+
+.karte embed
+{
+    width: 100%;
+}
+
+.karte .invisibleSquare
+{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(129, 9, 9, 0.605);
+}
+
+.karte .invisibleSquare:before 
+{
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+}
+  
+
+.karte .invisibleSquare:hover:before
+{
+    opacity: 1;
+    visibility: visible;
+}
 
 /*
 ____________________________________________________________________________________________________________________________________

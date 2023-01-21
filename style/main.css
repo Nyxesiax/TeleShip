@@ -60,7 +60,9 @@ ________________________________________________________________________________
 */
 .product
 {
-    margin: 0px;   
+    margin: 0px;  
+    display: flex; 
+    flex-direction: row;
 }
 .bild img
 {

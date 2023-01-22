@@ -11,8 +11,44 @@ ________________________________________________________________________________
 
 main
 {
+    /* display: flex;
+     flex-direction: column;
+     /*
+     justify-content: space-between;
+     margin-top: 0;
+     margin-right: 0;
+     */
+
+}
+
+button a
+{
+    display: block;
+    width: 100%;
+}
+
+.downloaduttons
+{
+    display: block;
+    width: 100%;
+}
+
+
+#audioText
+{
     display: flex;
     flex-direction: column;
+    background-color: lightblue;
+    height: 500px;
+    text-align: center;
+}
+
+#audioWiedergabe
+{
+    flex: 1;
+    background-color: blanchedalmond;
+    height: 250px;
+    text-align: center;
 }
 
 a
@@ -27,6 +63,12 @@ section
     background-color: white;
 }
 
+#linkeHaelfte
+{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+}
 
 /*
 ____________________________________________________________________________________________________________________________________
@@ -36,7 +78,7 @@ ________________________________________________________________________________
 {
     margin: 0px;
 }
-.backgroundPicture 
+.backgroundPicture
 {
     position: relative;
     text-align: center;
@@ -60,8 +102,8 @@ ________________________________________________________________________________
 */
 .product
 {
-    margin: 0px;  
-    display: flex; 
+    margin: 0px;
+    display: flex;
     flex-direction: row;
 }
 .bild img
@@ -76,7 +118,7 @@ ________________________________________________________________________________
 
 .about_us
 {
-    margin: 0px;    
+    margin: 0px;
 }
 */
 .aboutUsList ul
@@ -84,7 +126,7 @@ ________________________________________________________________________________
     text-decoration: none;
 }
 
-.aboutUsList li 
+.aboutUsList li
 {
     display: flex;
     justify-content: flex-start;
@@ -125,7 +167,7 @@ ________________________________________________________________________________
     background-color: rgba(129, 9, 9, 0.605);
 }
 
-.karte .invisibleSquare:before 
+.karte .invisibleSquare:before
 {
     content: attr(data-hover);
     visibility: hidden;
@@ -136,13 +178,13 @@ ________________________________________________________________________________
     text-align: center;
     border-radius: 5px;
     padding: 5px 0;
-  
+
     position: absolute;
     z-index: 1;
     left: 0;
     top: 110%;
 }
-  
+
 
 .karte .invisibleSquare:hover:before
 {
@@ -152,57 +194,5 @@ ________________________________________________________________________________
 
 /*
 ____________________________________________________________________________________________________________________________________
-Css for the Downloads page
+    Css for the Downloads page
 */
-
-.infoGrid
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 40px 500px;
-}
-
-.infoGrid img
-{
-    width: 100%;
-}
-
-
-.textAudio
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-button a
-{
-    display: block;
-    width: 100%;
-}
-
-.downloaduttons
-{
-    display: block;
-    width: 100%;
-}
-
-/*
-#audioText
-{
-    display: flex;
-    flex-direction: column;
-    background-color: lightblue;
-    height: 500px;
-    text-align: center;
-}
-
-#audioWiedergabe
-{
-    flex: 1;
-    background-color: blanchedalmond;
-    height: 250px;
-    text-align: center;
-}
-*/
-

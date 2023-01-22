@@ -13,9 +13,54 @@ main
 {
     display: flex;
     flex-direction: column;
-    /*justify-content: space-between;*/
+    /*
+    justify-content: space-between;
     margin-top: 0;
     margin-right: 0;
+    */
+
+}
+
+main li #audioDownloadButton
+{
+    display: block;
+    width: 100%;
+}
+
+.wide
+{
+    float: left;
+    background-color: aqua;
+}
+
+#plakatDownloadButton
+{
+    float: left;
+    width: 1000px;
+}
+
+#audioDownloadButton
+{
+    /*width: 1543px;*/
+    background-color: crimson;
+    width: 100%;
+
+}
+
+#audioText
+{
+    flex: 1;
+    background-color: lightblue;
+    height: 500px;
+    text-align: center;
+}
+
+#audioWiedergabe
+{
+    flex: 1;
+    background-color: blanchedalmond;
+    height: 250px;
+    text-align: center;
 }
 
 a

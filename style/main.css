@@ -11,44 +11,10 @@ ________________________________________________________________________________
 
 main
 {
-    /* display: flex;
-     flex-direction: column;
-     /*
-     justify-content: space-between;
-     margin-top: 0;
-     margin-right: 0;
-     */
-
-}
-
-button a
-{
-    display: block;
-    width: 100%;
-}
-
-.downloaduttons
-{
-    display: block;
-    width: 100%;
-}
-
-
-#audioText
-{
     display: flex;
     flex-direction: column;
-    background-color: lightblue;
-    height: 500px;
-    text-align: center;
-}
+    
 
-#audioWiedergabe
-{
-    flex: 1;
-    background-color: blanchedalmond;
-    height: 250px;
-    text-align: center;
 }
 
 a
@@ -61,13 +27,6 @@ a
 section
 {
     background-color: white;
-}
-
-#linkeHaelfte
-{
-    background-color: blue;
-    display: flex;
-    flex-direction: row;
 }
 
 /*
@@ -115,11 +74,6 @@ ________________________________________________________________________________
 /*
 ____________________________________________________________________________________________________________________________________
     Css for the About us page
-
-.about_us
-{
-    margin: 0px;
-}
 */
 .aboutUsList ul
 {
@@ -196,3 +150,36 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________________________________________
     Css for the Downloads page
 */
+
+.infoGrid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 40px 500px;
+}
+
+.infoGrid img
+{
+    width: 100%;
+}
+
+
+.textAudio
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button a
+{
+    display: block;
+    width: 100%;
+}
+
+.downloaduttons
+{
+    display: block;
+    width: 100%;
+}
+

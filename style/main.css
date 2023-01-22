@@ -181,6 +181,7 @@ Css for the Downloads page
     flex-direction: column;
     justify-content: space-between;
 }
+
 button a
 {
     display: block;
@@ -193,6 +194,7 @@ button a
     width: 100%;
 }
 
+/*
 #audioText
 {
     display: flex;
@@ -209,10 +211,5 @@ button a
     height: 250px;
     text-align: center;
 }
+*/
 
-#linkeHaelfte
-{
-    background-color: blue;
-    display: flex;
-    flex-direction: row;
-}

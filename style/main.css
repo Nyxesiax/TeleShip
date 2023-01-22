@@ -7,9 +7,15 @@ ________________________________________________________________________________
     margin: 0;
     padding: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif Georgia;
+
     /*color:  rgba(20, 37, 61, 1); blue
     background-color: rgba(244, 199, 87); yellow
     */
+}
+
+p
+{
+    font-size: 25px;
 }
 
 main
@@ -68,6 +74,8 @@ ________________________________________________________________________________
     display: flex;
     flex-direction: row;
     background-color: rgb(255, 202, 67);
+    text-align: center;
+    margin-left: 25%;
 }
 .bild img
 {

@@ -18,12 +18,19 @@ p
     font-size: 25px;
 }
 
+
+button
+{
+    height: 40px;
+    font-size: 20px;
+    background-color: rgba(197, 219, 160, 100);
+}
+
 main
 {
     display: flex;
     flex-direction: column;
-    /*background-color: rgba(20, 37, 61, 1);*/
-
+    background-color: rgb(255, 202, 67);
 }
 
 a
@@ -35,8 +42,9 @@ a
 
 section
 {
-    background-color: rgb(255, 202, 67);
+    /*background-color: rgb(255, 202, 67); */
 }
+
 
 /*
 ____________________________________________________________________________________________________________________________________

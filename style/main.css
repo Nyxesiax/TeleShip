@@ -11,7 +11,7 @@ ________________________________________________________________________________
 
 main
 {
-    display: flex;
+   /* display: flex;
     flex-direction: column;
     /*
     justify-content: space-between;
@@ -95,6 +95,13 @@ section
     flex: 1;
     flex-direction: column-reverse;
 }
+
+.plakat
+{
+    float: left;
+}
+
+
 /*
 ____________________________________________________________________________________________________________________________________
     Css for the Home page

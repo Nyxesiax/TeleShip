@@ -21,6 +21,12 @@ main
 
 }
 
+button a
+{
+    display: block;
+    width: 100%;
+}
+
 main li #audioDownloadButton
 {
     display: block;

@@ -21,36 +21,6 @@ main
 
 }
 
-button a
-{
-    display: block;
-    width: 100%;
-}
-
-.downloaduttons
-{
-    display: block;
-    width: 100%;
-}
-
-
-#audioText
-{
-    display: flex;
-    flex-direction: column;
-    background-color: lightblue;
-    height: 500px;
-    text-align: center;
-}
-
-#audioWiedergabe
-{
-    flex: 1;
-    background-color: blanchedalmond;
-    height: 250px;
-    text-align: center;
-}
-
 a
 {
     text-decoration: none;
@@ -63,12 +33,6 @@ section
     background-color: white;
 }
 
-#linkeHaelfte
-{
-    background-color: blue;
-    display: flex;
-    flex-direction: row;
-}
 
 /*
 ____________________________________________________________________________________________________________________________________
@@ -194,5 +158,61 @@ ________________________________________________________________________________
 
 /*
 ____________________________________________________________________________________________________________________________________
-    Css for the Downloads page
+Css for the Downloads page
 */
+
+.infoGrid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*grid-template-rows: 500px 200px 500px;
+    /*grid-auto-columns: minmax(100px, 50vw);*/
+}
+
+.infoGrid img
+{
+    width: 100%;
+}
+
+
+.textAudio
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+button a
+{
+    display: block;
+    width: 100%;
+}
+
+.downloaduttons
+{
+    display: block;
+    width: 100%;
+}
+
+#audioText
+{
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    height: 500px;
+    text-align: center;
+}
+
+#audioWiedergabe
+{
+    flex: 1;
+    background-color: blanchedalmond;
+    height: 250px;
+    text-align: center;
+}
+
+#linkeHaelfte
+{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+}

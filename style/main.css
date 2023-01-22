@@ -18,6 +18,13 @@ p
     font-size: 25px;
 }
 
+button
+{
+    height: 40px;
+    font-size: 20px;
+    background-color: rgba(197, 219, 160, 100);
+}
+
 main
 {
     display: flex;

@@ -15,12 +15,19 @@ ________________________________________________________________________________
 
 p
 {
-
     text-align: left;
     font-size: 30px;
     font-size: 1.2vw;
 }
 
+.divText
+{
+    margin-top: 25%;
+    margin-left: 10%;
+    font-size: 50px;
+    text-align: left;
+    font-weight: bold;
+}
 
 button
 {

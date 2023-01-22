@@ -11,14 +11,8 @@ ________________________________________________________________________________
 
 main
 {
-   /* display: flex;
+    display: flex;
     flex-direction: column;
-    /*
-    justify-content: space-between;
-    margin-top: 0;
-    margin-right: 0;
-    */
-
 }
 
 a
@@ -165,8 +159,7 @@ Css for the Downloads page
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /*grid-template-rows: 500px 200px 500px;
-    /*grid-auto-columns: minmax(100px, 50vw);*/
+    grid-template-rows: auto 40px 500px;
 }
 
 .infoGrid img

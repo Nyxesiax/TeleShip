@@ -24,6 +24,7 @@
 .contactInfo .lastLogo img
 {
     margin-left: 20px;
+    border-radius: 8px;
     width: 50px;
     height: 50px;
 }
@@ -46,6 +47,13 @@
     gap: 25px;
     margin-right: 20px;
     justify-content:flex-end;
+}
+
+.contactInfo .icon
+{
+    display: flex;
+    flex-direction: column;
+    font-size:xx-small;
 }
 
 .contactInfo .icon img

@@ -31,6 +31,14 @@ header .logo
 
 }
 
+header p
+{
+    border-radius: 8px;
+    font-size: 1.8vw;
+    margin-left: 35px;
+    color: white;
+}
+
 header .logo img
 {
     width: 60px;

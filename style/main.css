@@ -29,6 +29,12 @@ p
     font-weight: bold;
 }
 
+audio
+{
+    height: 100px;
+    width: 75%;
+}
+
 button
 {
     height: 40px;

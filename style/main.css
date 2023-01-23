@@ -241,7 +241,7 @@ ________________________________________________________________________________
 .infoGrid .flavourText p
 {
     margin-top: 20px;
-    font-size: medium;
+    font-size: large;
 }
 .infoGrid .quellenAngabe
 {
@@ -252,7 +252,7 @@ ________________________________________________________________________________
 
 .infoGrid .quellenAngabe p
 {
-    font-size:large;
+    font-size: large;
 }
 
 button a

@@ -49,6 +49,13 @@
     justify-content:flex-end;
 }
 
+.contactInfo .icon
+{
+    display: flex;
+    flex-direction: column;
+    font-size:xx-small;
+}
+
 .contactInfo .icon img
 {
     width: 50px;

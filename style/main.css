@@ -111,9 +111,20 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________________________________________
     Css for the About us page
 */
+
+#aboutus
+{
+    text-align: center;
+}
+
 .about_us
 {
     margin-top: 20px;
+}
+
+.about_us p
+{
+    text-align: center;
 }
 
 .aboutUsList ul
@@ -123,10 +134,11 @@ ________________________________________________________________________________
 
 .aboutUsList li
 {
-    display: flex;
+    display: inline-flex;
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 10px;
+    margin-left: 50px;
 }
 
 .aboutUsList li img
@@ -136,7 +148,7 @@ ________________________________________________________________________________
 
 .aboutUsList li p
 {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 /*
